@@ -65,7 +65,7 @@ const Layout = () => {
       </section>
 
       <Outlet />
-      <footer className="mt-[100px] mx-[20px]">
+      <footer className="mt-[100px] mx-[20px] lg:min-h-[620px] min-h-[720px]">
         <div className="flex justify-center relative top-[-40px]">
           <img src={yellowicn} alt="" className="w-[80px]" />
           <svg
@@ -92,7 +92,7 @@ const Layout = () => {
             />
           </svg>
         </div>
-        <div className="container max-w-[1250px] mx-auto p-[20px] sm:flex sm:flex-col md:flex md:flex-row justify-between mt-[50px] md:mt-auto border-b-[1px] border-[rgba(255,255,255,0.12)]">
+        <div className="container max-w-[1250px] mx-auto px-[20px] pt-[20px] sm:flex sm:flex-col md:flex md:flex-row justify-between mt-[50px] md:mt-auto border-b-[1px] border-[rgba(255,255,255,0.12)]">
           <div className=" border-r-[1px] border-[rgba(255,255,255,0.12)]">
             <div className="flex flex-col gap-[40px] max-w-[576px] mr-[50px] mb-[40px]">
               <div className="flex md:flex items-center flex-wrap md:justify-between  justify-center">
