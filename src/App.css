@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
 
-/* .containerr {
-  max-width: 1200px;
+ /* .containerr {
+  max-width: 1250px;
   margin: auto;
   padding-left: 10px;
   padding-right: 10px;
-} */
-.bg_header{
+}  */
+.bg_header {
   background-image: url(./assets/bg_header.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -49,4 +49,33 @@ footer ul li {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+.section_2 h2 {
+  color: rgba(28, 11, 36, 0.8);
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section_3{
+  background-image: url(./pages/about/img-about/bg-section-3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.section_3_2{
+  background-image: url(./pages/about/img-about/bg-section-3-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.section_3_3{
+  background-image: url(./pages/about/img-about/bg-section-3-3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
