@@ -1,58 +1,52 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./layout/Layout";
-import Company from "./pages/company/Company";
-import Products from "./pages/products/Products";
-import Partners from "./pages/partners/Partners";
-import Catalog from "./pages/catalog/Catalog";
 import News from "./pages/news/News";
-import Contact from "./pages/contact/Contact";
 import Nothing from "./pages/nothing/Nothing";
+import About from "./pages/about/About";
+import Services from "./pages/services/Services";
+import Communication from "./pages/communication/Communication";
+import References from "./pages/references/References";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
     children: [
+      // {
+      //   index: true,
+      //   element: <Company />,
+      // },
       {
-        index: true,
-        element: <Company />,
+        path: "about",
+        element: <About />,
       },
       {
-        path: "products",
-        element: <Products/>
+        path: "services",
+        element: <Services />,
       },
       {
-        path: "catalog",
-        element: <Catalog/>
+        path: "References",
+        element: <References />,
       },
-      
       {
         path: "news",
-        element: <News/>
+        element: <News />,
       },
       {
-        path: "partners",
-        element: <Partners/>
-      },
-      {
-        path: "contact",
-        element: <Contact/>
+        path: "communication",
+        element: <Communication />,
       },
       {
         path: "*",
-        element:<Nothing/>
-        
-      }
-      
+        element: <Nothing />,
+      },
     ],
   },
 ]);
 
 const App = () => {
-  return (
-    <RouterProvider router={router}/>
-  )
+  return <RouterProvider router={router} />;
 };
 
 export default App;

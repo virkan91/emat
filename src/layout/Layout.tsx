@@ -1,52 +1,54 @@
 import React from "react";
 import "../App.css";
 //  import img
-import bgfoot from "../assets/bgfoot.png";
 import yellowicn from "../assets/yellowicn.svg";
-import logo from "../assets/logo.png";
 import call from "../assets/call.svg";
 import mail from "../assets/mail.png";
+import logo from "../assets/logo.png";
+
 
 import { Outlet, Link } from "react-router-dom";
 
 const Layout = () => {
   return (
     <div>
-      <section className="bg_header h-screen">
-        <div className="container max-w-[1250px] mx-auto p-[20px] h-full ">
+      <section className="">
+        <div className="container max-w-[1250px] mx-auto p-[20px]">
           <header className="flex items-center justify-between">
             {/* logo */}
+            <Link to="">
             <div>
               <img src={logo} alt="" />
             </div>
+            </Link>
             <nav>
               <ul className="flex justify-center gap-[70px] text-[#FFF]">
-                <Link to="/">
+                <Link to="about">
                   <li>Hakkımızda</li>
                 </Link>
-                <Link to="products">
+                <Link to="services">
                   <li>Hizmetlerimiz</li>
                 </Link>
-                <Link to="catalog">
+                <Link to="references">
                   <li>Referanslar</li>
                 </Link>
                 <Link to="news">
                   <li>Haberler</li>
                 </Link>
-                <Link to="partners">
+                <Link to="communication">
                   <li>İletişim</li>
                 </Link>
                 {/* <Link to="contact">
                   <li>Contact</li>
                 </Link> */}
-                <select className="bg-transparent">
+                <select className="bg-transparent outline-none">
                   <option value="ru">Tr</option>
                   <option value="en">En</option>
                 </select>
               </ul>
             </nav>
           </header>
-          <div className="h-full flex items-center">
+          {/* <div className="h-full flex items-center">
             <div className="max-w-[450px] ">
               <h1 className="text-[50px] font-bold	not-italic	text-[#FFF] leading-[60px]">
                 Yenilikle Geleceği İnşa Ediyoruz
@@ -58,12 +60,12 @@ const Layout = () => {
                 aydınlatıyoruz.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
       <Outlet />
-      <footer className="mt-[100px] mx-[20px]">
+      <footer className="mt-[100px] mx-[20px] lg:min-h-[620px] min-h-[720px]">
         <div className="flex justify-center relative top-[-40px]">
           <img src={yellowicn} alt="" className="w-[80px]" />
           <svg
@@ -90,7 +92,7 @@ const Layout = () => {
             />
           </svg>
         </div>
-        <div className="container max-w-[1250px] mx-auto p-[20px] sm:flex sm:flex-col md:flex md:flex-row justify-between mt-[50px] md:mt-auto border-b-[1px] border-[rgba(255,255,255,0.12)]">
+        <div className="container max-w-[1250px] mx-auto px-[20px] pt-[20px] sm:flex sm:flex-col md:flex md:flex-row justify-between mt-[50px] md:mt-auto border-b-[1px] border-[rgba(255,255,255,0.12)]">
           <div className=" border-r-[1px] border-[rgba(255,255,255,0.12)]">
             <div className="flex flex-col gap-[40px] max-w-[576px] mr-[50px] mb-[40px]">
               <div className="flex md:flex items-center flex-wrap md:justify-between  justify-center">

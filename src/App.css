@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
 
 /* .containerr {
-  max-width: 1200px;
+  max-width: 1250px;
   margin: auto;
   padding-left: 10px;
   padding-right: 10px;
-} */
-.bg_header{
+}  */
+.bg_header {
   background-image: url(./assets/bg_header.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -49,4 +49,86 @@ footer ul li {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+.section_2 h2 {
+  color: rgba(28, 11, 36, 0.8);
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section_3 {
+  background-image: url(./pages/about/img-about/bg-section-3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section_3_2 {
+  background-image: url(./pages/about/img-about/bg-section-3-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section_3_3 {
+  background-image: url(./pages/about/img-about/bg-section-3-3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section_4 {
+  color: rgba(28, 11, 36, 0.8);
+  font-family: TacticSans-Bld;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.section_4 ul li {
+  color: rgba(255, 255, 255, 0.85);
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.swich h5 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.swich_1 {
+  background-image: url(./pages/about/img-about/rec.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.swich_2 {
+  background-image: url(./pages/about/img-about/red-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.swich_3 {
+  background-image: url(./pages/about/img-about/red-3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.swich_4 {
+  background-image: url(./pages/about/img-about/red-4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section_5 h2{
+color: rgba(28, 11, 36, 0.80);
+font-family: "Montserrat", sans-serif;;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
