@@ -1,13 +1,15 @@
 import React from "react";
 import "../App.css";
+// icon
+import { AiOutlineMenu } from "react-icons/ai";
 //  import img
 import yellowicn from "../assets/yellowicn.svg";
 import call from "../assets/call.svg";
 import mail from "../assets/mail.png";
 import logo from "../assets/logo.png";
 
-
 import { Outlet, Link } from "react-router-dom";
+import Burger from "../components/Burger/Burger";
 
 const Layout = () => {
   return (
@@ -17,11 +19,11 @@ const Layout = () => {
           <header className="flex items-center justify-between">
             {/* logo */}
             <Link to="">
-            <div>
-              <img src={logo} alt="" />
-            </div>
+              <div>
+                <img src={logo} alt="" className="max-w-[140px]" />
+              </div>
             </Link>
-            <nav>
+            <nav className="hidden md:flex">
               <ul className="flex justify-center gap-[70px] text-[#FFF]">
                 <Link to="about">
                   <li>Hakkımızda</li>
@@ -47,20 +49,14 @@ const Layout = () => {
                 </select>
               </ul>
             </nav>
-          </header>
-          {/* <div className="h-full flex items-center">
-            <div className="max-w-[450px] ">
-              <h1 className="text-[50px] font-bold	not-italic	text-[#FFF] leading-[60px]">
-                Yenilikle Geleceği İnşa Ediyoruz
-              </h1>
-              <p className="text-[#FFF] mt-[30px]">
-                Enerjinin akışını yönlendiren kabiliyetimizle, elektrik
-                mühendisliğinde yeni ufuklar açıyoruz. Yenilikçi
-                yaklaşımlarımızla sorunlara çözüm üretiyor, geleceği
-                aydınlatıyoruz.
-              </p>
+            {/* mobal-menu */}
+            <div className="lg:hidden">
+              <Burger />
             </div>
-          </div> */}
+            {/* <div className="md:hidden flex">
+              <AiOutlineMenu className="text-[#FFF] text-[40px] p-[3px]" />
+            </div> */}
+          </header>
         </div>
       </section>
 
@@ -160,7 +156,7 @@ const Layout = () => {
                   </svg>
                 </div>
               </div>
-              <p>
+              <p className="text-center md:text-start max-w-[500px]">
                 Enerjinin akışını yönlendiren kabiliyetimizle, elektrik
                 mühendisliğinde yeni ufuklar açıyoruz. Yenilikçi
                 yaklaşımlarımızla sorunlara çözüm üretiyor, geleceği
@@ -208,7 +204,7 @@ const Layout = () => {
                     <p>Şişli / İSTANBUL</p>
                   </div>
                 </div>
-                <div className="bg-[#FF8A00] w-[210px] h-[50px] justify-center flex items-center md:mt-0 mt-[40px] md:ml-auto  ">
+                <div className="bg-[#FF8A00] w-[210px] h-[50px] justify-center flex items-center md:mt-0 mt-[40px] md:md:ml-[82px] m-auto ">
                   <div className="flex gap-8">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -230,9 +226,9 @@ const Layout = () => {
           </div>
 
           <div className="border-r-[1px] border-[rgba(255,255,255,0.12)]">
-            <div className="mr-[95px] text-center md:text-start">
+            <div className="md:mr-[95px] text-center md:text-start mt-[120px] md:mt-auto">
               <h2 className="text-[#FFF]">Kurumsal</h2>
-              <ul className="mt-[30px] flex flex-col gap-4">
+              <ul className="mt-[30px] flex md:flex-col  flex-wrap justify-center gap-4 cursor-pointer">
                 <li>Anasayfa</li>
                 <li>Referanslar</li>
                 <li>Hakkımızda</li>
@@ -243,9 +239,9 @@ const Layout = () => {
             </div>
           </div>
           <div className="">
-            <div className="mr-[50px] text-center md:text-start mt-[50px] md:mt-auto mb-[30px] md:mb-auto ">
+            <div className="md:mr-[50px] text-center md:text-start mt-[50px] md:mt-auto mb-[30px] md:mb-auto ">
               <h2 className="text-[#FFF]">Hizmetlerimiz</h2>
-              <ul className="mt-[30px] flex flex-col gap-4">
+              <ul className="mt-[30px] flex md:flex-col flex-wrap justify-center gap-4 cursor-pointer">
                 <li>Transformatör Merkezi</li>
                 <li>Yüksek Gerilim Hücreleri</li>
                 <li>Yol Aydınlatma</li>

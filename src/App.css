@@ -12,6 +12,25 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bg_servise {
+  background-image: url(./pages/services/img-services/bg-service.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg_referances {
+  background-image: url(./pages/references/img-referances/bg-referances.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg_news{
+   background-image: url(./pages/news//img-news/bg-news.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 footer {
   background-image: url(./assets/bgfoot.png);
   background-repeat: no-repeat;
@@ -76,7 +95,7 @@ footer ul li {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.section_4 {
+.section_4  {
   color: rgba(28, 11, 36, 0.8);
   font-family: TacticSans-Bld;
   font-size: 48px;
@@ -124,10 +143,112 @@ footer ul li {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.section_5 h2{
-color: rgba(28, 11, 36, 0.80);
-font-family: "Montserrat", sans-serif;;
-font-size: 42px;
+.section_5 h2 {
+  color: rgba(28, 11, 36, 0.8);
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.service ul li {
+  color: rgba(28, 11, 36, 0.5);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.armsan_1 {
+  background-image: url(./pages//services//img-services//armsan-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.l {
+  color: #fff;
+  font-family: TacticSans-Bld;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.pop {
+  color: #ff8a00;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 27px; /* 225% */
+  letter-spacing: 6px;
+}
+.armsan_2 {
+  background-image: url(./pages/services/img-services/armsan2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.armsan_3 {
+  background-image: url(./pages/services/img-services/armsan3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.armsan_4 {
+  background-image: url(./pages/services/img-services/armsan4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.armsan_5 {
+  background-image: url(./pages/services/img-services/armsan5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.armsan_6 {
+  background-image: url(./pages/services/img-services/armsan6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.armsan_7 {
+  background-image: url(./pages/services/img-services/armsan7.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.armsan_8 {
+  background-image: url(./pages/services/img-services/armsan8.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section form p {
+  color: rgba(28, 11, 36, 0.25);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px; /* 262.5% */
+  margin-bottom: 15px;
+}
+section form input {
+  color: rgba(28, 11, 36, 0.65);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px; /* 168% */
+}
+.text_ref p {
+  color: rgba(28, 11, 36, 0.75);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 210% */
+}
+.ulsearch li {
+color: rgba(28, 11, 36, 0.50);
+font-family: Montserrat;
+font-size: 17px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
