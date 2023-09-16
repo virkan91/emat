@@ -16,35 +16,7 @@ const About = () => {
     <div>
       <section className="bg_header h-screen relative top-[-100px] w-full z-[-1]">
         <div className="container max-w-[1250px] mx-auto p-[20px] h-full ">
-          <header className="flex items-center justify-between">
-            {/* logo */}
-            {/* <div>
-              <img src={logo} alt="" />
-            </div> */}
-            {/* <nav>
-              <ul className="flex justify-center gap-[70px] text-[#FFF]">
-                <Link to="about">
-                  <li>Hakkımızda</li>
-                </Link>
-                <Link to="services">
-                  <li>Hizmetlerimiz</li>
-                </Link>
-                <Link to="references">
-                  <li>Referanslar</li>
-                </Link>
-                <Link to="news">
-                  <li>Haberler</li>
-                </Link>
-                <Link to="communication">
-                  <li>İletişim</li>
-                </Link>
-                <select className="bg-transparent outline-none flex it">
-                  <option value="ru">Tr</option>
-                  <option value="en">En</option>
-                </select>
-              </ul>
-            </nav> */}
-          </header>
+          <header className="flex items-center justify-between"></header>
           <div className="h-full flex items-center mt-[10px]">
             <div className="max-w-[450px] ">
               <h1 className="text-[50px] font-bold	not-italic	text-[#FFF] leading-[60px]">
@@ -167,7 +139,7 @@ const About = () => {
       {/* SECTION-4 */}
       <section className="section_4 p-[20px]  md:mt-[50px] mt-[100px]">
         <div className="container max-w-[1200px] mx-auto">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between flex-col md:flex-row gap-6">
             <div>
               <p className="text-[#FF8A00] text-[10px] tracking-[4px] font-bold">
                 EMAT MÜHENDİSLİK
@@ -211,8 +183,8 @@ const About = () => {
       {/* SECTION-5 */}
       <section className="section_5 p-[20px] mt-[50px]">
         <div className="container max-w-[1200px] mx-auto">
-          <div className="flex items-center justify-between">
-            <div className="flex gap-8 items-center">
+          <div className="flex items-center justify-between flex-col md:flex-row gap-4">
+            <div className="flex gap-8 items-center flex-col md:flex-grow justify-center">
               <div>
                 <img src={erow} alt="" className="w-[65%]" />
               </div>
@@ -239,57 +211,53 @@ const About = () => {
               </svg>
             </div>
           </div>
-          
-            <div className="grid md:grid-cols-3 gap-[90px] grid-cols-1 justify-center mt-[50px] mb-[60px]">
-              <div className="hover:border-[#FF8A00]  border-[1px] p-[14px] ">
-                <div className="relative md:right-[35px] right-0">
-                  <img src={green} alt="" />
-                </div>
-                <div className="flex flex-col gap-6 mt-[30px]">
-                  <p className="text-[#FF8A00]">Finans</p>
-                  <p className="text-[#000] font-bold">
-                    İnovasyonun Ötesinde: Teknolojiyle Geleceği
-                    Şekillendiriyoruz
-                  </p>
-                  <p className="text-[#ccc]">
-                    Enerjinin akışını yönlendiren kabiliyetimizle, elektrik
-                    mühendisliğinde yeni ufuklar açıyoruz...
-                  </p>
-                </div>
+
+          <div className="grid md:grid-cols-3 gap-[90px] grid-cols-1 justify-center mt-[50px] mb-[60px]">
+            <div className="hover:border-[#FF8A00]  border-[1px] p-[14px] ">
+              <div className="relative md:right-[35px] right-0">
+                <img src={green} alt="" />
               </div>
-              <div className="hover:border-[#FF8A00]  border-[1px] p-[14px] ">
-                <div className="relative md:right-[35px] right-0">
-                  <img src={offiss} alt="" />
-                </div>
-                <div className="flex flex-col gap-6 mt-[30px]">
-                  <p className="text-[#FF8A00]">Finans</p>
-                  <p className="text-[#000] font-bold">
-                    İnovasyonun Ötesinde: Teknolojiyle Geleceği
-                    Şekillendiriyoruz
-                  </p>
-                  <p className="text-[#ccc]">
-                    Enerjinin akışını yönlendiren kabiliyetimizle, elektrik
-                    mühendisliğinde yeni ufuklar açıyoruz...
-                  </p>
-                </div>
+              <div className="flex flex-col gap-6 mt-[30px]">
+                <p className="text-[#FF8A00]">Finans</p>
+                <p className="text-[#000] font-bold">
+                  İnovasyonun Ötesinde: Teknolojiyle Geleceği Şekillendiriyoruz
+                </p>
+                <p className="text-[#ccc]">
+                  Enerjinin akışını yönlendiren kabiliyetimizle, elektrik
+                  mühendisliğinde yeni ufuklar açıyoruz...
+                </p>
               </div>
-              <div className="hover:border-[#FF8A00]  border-[1px] p-[14px] ">
-                <div className="relative md:right-[35px] right-0">
-                  <img src={zavod} alt="" />
-                </div>
-                <div className="flex flex-col gap-6 mt-[30px]">
-                  <p className="text-[#FF8A00]">Finans</p>
-                  <p className="text-[#000] font-bold">
-                    İnovasyonun Ötesinde: Teknolojiyle Geleceği
-                    Şekillendiriyoruz
-                  </p>
-                  <p className="text-[#ccc]">
-                    Enerjinin akışını yönlendiren kabiliyetimizle, elektrik
-                    mühendisliğinde yeni ufuklar açıyoruz...
-                  </p>
-                </div>
+            </div>
+            <div className="hover:border-[#FF8A00]  border-[1px] p-[14px] ">
+              <div className="relative md:right-[35px] right-0">
+                <img src={offiss} alt="" />
               </div>
-            
+              <div className="flex flex-col gap-6 mt-[30px]">
+                <p className="text-[#FF8A00]">Finans</p>
+                <p className="text-[#000] font-bold">
+                  İnovasyonun Ötesinde: Teknolojiyle Geleceği Şekillendiriyoruz
+                </p>
+                <p className="text-[#ccc]">
+                  Enerjinin akışını yönlendiren kabiliyetimizle, elektrik
+                  mühendisliğinde yeni ufuklar açıyoruz...
+                </p>
+              </div>
+            </div>
+            <div className="hover:border-[#FF8A00]  border-[1px] p-[14px] ">
+              <div className="relative md:right-[35px] right-0">
+                <img src={zavod} alt="" />
+              </div>
+              <div className="flex flex-col gap-6 mt-[30px]">
+                <p className="text-[#FF8A00]">Finans</p>
+                <p className="text-[#000] font-bold">
+                  İnovasyonun Ötesinde: Teknolojiyle Geleceği Şekillendiriyoruz
+                </p>
+                <p className="text-[#ccc]">
+                  Enerjinin akışını yönlendiren kabiliyetimizle, elektrik
+                  mühendisliğinde yeni ufuklar açıyoruz...
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
