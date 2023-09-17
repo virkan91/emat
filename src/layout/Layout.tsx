@@ -8,6 +8,7 @@ import call from "../assets/call.svg";
 import mail from "../assets/mail.png";
 import logo from "../assets/logo.png";
 
+
 import { Outlet, Link } from "react-router-dom";
 import Burger from "../components/Burger/Burger";
 
@@ -23,13 +24,34 @@ const Layout = () => {
                 <img src={logo} alt="" className="max-w-[140px]" />
               </div>
             </Link>
-            <nav className="hidden md:flex">
-              <ul className="flex justify-center gap-[70px] text-[#FFF]">
+            <nav className="hidden lg:flex">
+              <ul className="flex items-center justify-center gap-[70px] text-[#FFF]">
                 <Link to="about">
                   <li>Hakkımızda</li>
                 </Link>
                 <Link to="services">
-                  <li>Hizmetlerimiz</li>
+                  <div className="dropdown">
+                    <div className="flex items-center gap-4">
+                      <li className="dropbth">Hizmetlerimiz</li>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="15"
+                        height="15"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                      >
+                        <path
+                          d="M18.0887 7.25589L10.5887 14.7559C10.4262 14.9184 10.2129 15 9.99953 15C9.7862 15 9.57289 14.9184 9.41039 14.7559L1.91039 7.25589C1.58456 6.93006 1.58456 6.40334 1.91039 6.0775C2.23622 5.75167 2.76284 5.75167 3.08867 6.0775L9.99953 12.9884L16.9104 6.0775C17.2362 5.75167 17.7628 5.75167 18.0887 6.0775C18.4145 6.40334 18.4145 6.93006 18.0887 7.25589Z"
+                          fill="#FF8A00"
+                        />
+                      </svg>
+                    </div>
+                    <div className="dropdown-content">
+                      <a href="#">Ссылка 1</a>
+                      <a href="#">Ссылка 2</a>
+                      <a href="#">Ссылка 3</a>
+                    </div>
+                  </div>
                 </Link>
                 <Link to="references">
                   <li>Referanslar</li>
@@ -38,7 +60,7 @@ const Layout = () => {
                   <li>Haberler</li>
                 </Link>
                 <Link to="communication">
-                  <li>İletişim</li>
+                  <li className="dropbth">İletişim</li>
                 </Link>
                 {/* <Link to="contact">
                   <li>Contact</li>

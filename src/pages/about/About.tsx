@@ -140,14 +140,14 @@ const About = () => {
       <section className="section_4 p-[20px]  md:mt-[50px] mt-[100px]">
         <div className="container max-w-[1200px] mx-auto">
           <div className="flex items-center justify-between flex-col md:flex-row gap-6">
-            <div>
+            <div className="text-center md:text-start">
               <p className="text-[#FF8A00] text-[10px] tracking-[4px] font-bold">
                 EMAT MÜHENDİSLİK
               </p>
               <h2>Hizmetlerimiz</h2>
             </div>
-            <div>
-              <img src={erow} alt="" className="w-[65%]" />
+            <div className="">
+              <img src={erow} alt="" className="w-[65%] m-auto" />
             </div>
           </div>
           <div className="swich grid md:grid-cols-4 gap-4 mt-[40px] grid-col-1">
@@ -184,7 +184,7 @@ const About = () => {
       <section className="section_5 p-[20px] mt-[50px]">
         <div className="container max-w-[1200px] mx-auto">
           <div className="flex items-center justify-between flex-col md:flex-row gap-4">
-            <div className="flex gap-8 items-center flex-col md:flex-grow justify-center">
+            <div className="flex gap-8 items-center flex-col md:flex-row justify-center md:justify-start">
               <div>
                 <img src={erow} alt="" className="w-[65%]" />
               </div>
