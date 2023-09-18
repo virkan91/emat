@@ -5,6 +5,8 @@ import gr from "../anasayfa/img-anasay/gr.png";
 import mail from "../anasayfa/mail.png"
 import call from "../anasayfa/call.svg"
 import draw from "../anasayfa/img-anasay/draw.png";
+import Form from "../../../../components/Form";
+
 
 const Anasayfa = () => {
   return (
@@ -53,11 +55,11 @@ const Anasayfa = () => {
       </section>
 
       {/* section-2 */}
-      <section>
-        <div className="container max-w-[1100px] mx-auto">
-          <div className="grid grid-cols-2 gap-[50px]">
-            <div>
-              <div className="flex justify-between">
+      <section className="py-[50px]">
+        <div className="container max-w-[1100px] mx-auto pl-[10px] ">
+          <div className="grid md:grid-cols-2 gap-[90px] grid-cols-1">
+            <div className="flex flex-col gap-[60px]">
+              <div className="flex justify-between  flex-col md:flex-row gap-[40px] ">
                 <div>
                   <div className="flex items-center gap-[20px]">
                     <svg
@@ -117,7 +119,7 @@ const Anasayfa = () => {
                 </div>
               </div>
               <div>
-                <div>
+                <div className="flex gap-[20px]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -131,15 +133,53 @@ const Anasayfa = () => {
                     />
                   </svg>
                   <div>
-                    <p>Adres</p>
-                    
+                    <p className="text-[#ccc]">Adres</p>
+                    <p className="text-[#1C0B24] font-semibold">
+                      Esentepe Mah. Kasap Sok. Aslanbr <br /> Apt. No:11 Kat: 6
+                      Daire: 6
+                    </p>
+                    <p className="tetx-[#1C0B24] font-semibold text-[14px] mt-[8px]">
+                      Şişli / İSTANBUL
+                    </p>
                   </div>
                 </div>
               </div>
+              <hr />
+
+              <div>
+                <p className="text-[#1C0B24] text-[30px]">
+                  İletişime{" "}
+                  <span className="text-[#FF8A00] font-semibold">Geçin</span>
+                </p>
+              </div>
+              <form action="">
+                <div>
+                  <Form />
+                </div>
+                <div className="flex justify-between py-[20px] flex-col md:flex-row gap-4">
+                  <div className="flex items-center gap-6">
+                    <input type="checkbox" />
+                    <p>Şartlar ve Koşulları kabul ediyorum</p>
+                  </div>
+                  <div>
+                    <button className="bg-[#FF8A00] p-[10px] px-[20px] text-[#FFF]">
+                      FORMU GÖNDER
+                    </button>
+                  </div>
+                </div>
+              </form>
             </div>
 
-            <div className="border-2">
+            <div className="">
               <img src={draw} alt="" />
+              <div className="text-center pl-[30px]">
+                <p>
+                  “Enerjinin akışını yönlendiren kabiliyetimizle, elektrik
+                  mühendisliğinde{" "}
+                  <span className="text-[#FF8A00]">yeni ufuklar</span> açıyoruz.
+                  “
+                </p>
+              </div>
             </div>
           </div>
         </div>
