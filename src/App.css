@@ -37,6 +37,13 @@
   background-size: cover;
 
 }
+.bg_anastasy{
+  background-image: url(./pages/services/dropdown/anasayfa/img-anasay/bg_anastasy.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 
 footer {
   background-image: url(./assets/bgfoot.png);
