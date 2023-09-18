@@ -47,7 +47,10 @@ const Layout = () => {
                       </svg>
                     </div>
                     <div className="dropdown-content">
-                      <a href="#">Ссылка 1</a>
+                      <Link to="/anasayfa">
+                        <li>Anasayfa</li>
+                      </Link>
+
                       <a href="#">Ссылка 2</a>
                       <a href="#">Ссылка 3</a>
                     </div>

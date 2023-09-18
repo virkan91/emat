@@ -7,6 +7,9 @@ import About from "./pages/about/About";
 import Services from "./pages/services/Services";
 import Communication from "./pages/communication/Communication";
 import References from "./pages/references/References";
+import Anasayfa from "./pages/services/dropdown/anasayfa/Anasayfa";
+import Projeler from "./pages/services/dropdown/projeler/Projeler";
+import Hakkımızda from "./pages/services/dropdown/hakkımızda/Hakkımızda";
 
 const router = createBrowserRouter([
   {
@@ -24,14 +27,34 @@ const router = createBrowserRouter([
       {
         path: "services",
         element: <Services />,
-        children: [
-          {
-            path: "",
-            element:<sd/>,
-          }
-        ]
-        
+        // children: [
+        //   {
+        //     path: "anasayfa",
+        //     element:<Anasayfa/>,
+        //   },
+        //   {
+        //     path: "projeler",
+        //     element:<Projeler/>,
+        //   },
+        //   {
+        //     path: "hakkimizda",
+        //     element:<Hakkımızda/>,
+        //   }
+        // ]
       },
+                  {
+                    path: "anasayfa",
+                    element: <Anasayfa />,
+                  },
+                  {
+                    path: "projeler",
+                    element: <Projeler />,
+                  },
+                  {
+                    path: "hakkimizda",
+                    element: <Hakkımızda />,
+                  },
+
       {
         path: "References",
         element: <References />,
