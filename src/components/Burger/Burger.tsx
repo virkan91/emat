@@ -13,10 +13,7 @@ import MiscellaneousServicesIcon from "@mui/icons-material/MiscellaneousServices
 import React from "react";
 import { AiOutlineMenu, AiFillHome } from "react-icons/ai";
 import { IconButton } from "@mui/material";
-import ApartmentIcon from "@mui/icons-material/Apartment";
 import { Link } from "react-router-dom";
-import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact";
-import InfoIcon from "@mui/icons-material/Info";
 
 export default function Burger() {
   const [state, setState] = React.useState({
@@ -47,7 +44,7 @@ export default function Burger() {
 
   const list = (anchor:any) => (
       <Box
-      sx={{  width: anchor === "top" || anchor === "bottom" ? "auto" : 250, backgroundColor: "#ccc" , paddingBottom: "362px" , color: "white"  }}
+      sx={{  width: anchor === "top" || anchor === "bottom" ? "auto" : 270, backgroundColor: "#ccc" , paddingBottom: "352px" , color: "#FFFFFF"  }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
@@ -60,7 +57,7 @@ export default function Burger() {
                 <ListItem key={e} disablePadding >
                   <ListItemButton>
                     <ListItemIcon>
-                      <AiFillHome className=" text-white" />
+                      <AiFillHome className="text-orange-500" />
                     </ListItemIcon>
                     <ListItemText primary={e} />
                   </ListItemButton>
@@ -72,8 +69,8 @@ export default function Burger() {
               <Link to="/services">
                 <ListItem key={e} disablePadding>
                   <ListItemButton>
-                    <ListItemIcon className=" text-white">
-                      <MiscellaneousServicesIcon className=" text-white" />
+                    <ListItemIcon>
+                      <MiscellaneousServicesIcon className=" text-orange-500" />
                     </ListItemIcon>
                     <ListItemText primary={e} />
                   </ListItemButton>
@@ -86,7 +83,7 @@ export default function Burger() {
                 <ListItem key={e} disablePadding>
                   <ListItemButton>
                     <ListItemIcon>
-                      <SettingsAccessibilityIcon className=" text-white" />
+                      <SettingsAccessibilityIcon className=" text-orange-500" />
                     </ListItemIcon>
                     <ListItemText primary={e} />
                   </ListItemButton>
@@ -100,7 +97,7 @@ export default function Burger() {
                 <ListItem key={e} disablePadding>
                   <ListItemButton>
                     <ListItemIcon>
-                      <FiberNewIcon className=" text-white" />
+                      <FiberNewIcon className=" text-orange-500" />
                     </ListItemIcon>
                     <ListItemText primary={e} />
                   </ListItemButton>
@@ -115,7 +112,7 @@ export default function Burger() {
                     <ListItemIcon>
                       <SatelliteAltIcon
                         fontSize="small"
-                        className=" text-white"
+                        className=" text-orange-500"
                       />
                     </ListItemIcon>
                     <ListItemText primary={e} />

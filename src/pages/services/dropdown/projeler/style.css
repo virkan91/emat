@@ -1,0 +1,13 @@
+.vert {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-size: 2rem;
+  color: #fff;
+  rotate: 90%;
+}
+/* .vert img {
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+} */

@@ -8,7 +8,6 @@ import call from "../assets/call.svg";
 import mail from "../assets/mail.png";
 import logo from "../assets/logo.png";
 
-
 import { Outlet, Link } from "react-router-dom";
 import Burger from "../components/Burger/Burger";
 
@@ -51,8 +50,12 @@ const Layout = () => {
                         <li>Anasayfa</li>
                       </Link>
 
-                      <a href="#">Ссылка 2</a>
-                      <a href="#">Ссылка 3</a>
+                      <Link to="/projeler">
+                        <li>Projeler</li>
+                      </Link>
+                      <Link to="/hakkimizda">
+                        <li>hakkimizda</li>
+                      </Link>
                     </div>
                   </div>
                 </Link>
@@ -69,7 +72,7 @@ const Layout = () => {
                   <li>Contact</li>
                 </Link> */}
                 <select className="bg-transparent outline-none">
-                  <option value="ru">Tr</option>
+                  <option value="tr">Tr</option>
                   <option value="en">En</option>
                 </select>
               </ul>
