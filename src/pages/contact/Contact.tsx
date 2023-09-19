@@ -14,7 +14,7 @@ import rect2 from "../references/img-referances/rect2.png";
 import rect3 from "../references/img-referances/rect3.png";
 import rect4 from "../references/img-referances/rect4.png";
 
-const Communication = () => {
+const Contact = () => {
   return (
     <div>
       <section className="bg_commun h-screen relative top-[-100px] w-full z-[-1]">
@@ -186,4 +186,4 @@ const Communication = () => {
   );
 };
 
-export default Communication;
+export default Contact;

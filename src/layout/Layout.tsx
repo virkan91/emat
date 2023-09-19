@@ -1,7 +1,10 @@
 import React from "react";
+
+import { useTranslation } from "react-i18next";
+import MyTranslation from "../components/MyTranslation";
+
 import "../App.css";
 // icon
-import { AiOutlineMenu } from "react-icons/ai";
 //  import img
 import yellowicn from "../assets/yellowicn.svg";
 import call from "../assets/call.svg";
@@ -11,7 +14,15 @@ import logo from "../assets/logo.png";
 import { Outlet, Link } from "react-router-dom";
 import Burger from "../components/Burger/Burger";
 
+
+
 const Layout = () => {
+
+  // translations________________________
+  const { t, i18n } = useTranslation();
+
+  // _________________________________
+
   return (
     <div>
       <section className="">
@@ -26,12 +37,13 @@ const Layout = () => {
             <nav className="hidden lg:flex">
               <ul className="flex items-center justify-center gap-[70px] text-[#FFF]">
                 <Link to="about">
-                  <li>Hakkımızda</li>
+                  {/* <li>Hakkımızda</li> */}
+                  {t("nav.li1")}
                 </Link>
                 <Link to="services">
                   <div className="dropdown">
                     <div className="flex items-center gap-4">
-                      <li className="dropbth">Hizmetlerimiz</li>
+                      {t("nav.li2")}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="15"
@@ -59,22 +71,19 @@ const Layout = () => {
                     </div>
                   </div>
                 </Link>
-                <Link to="references">
-                  <li>Referanslar</li>
-                </Link>
-                <Link to="news">
-                  <li>Haberler</li>
-                </Link>
-                <Link to="communication">
-                  <li className="dropbth">İletişim</li>
+                <Link to="references">{t("nav.li3")}</Link>
+                <Link to="news">{t("nav.li4")}</Link>
+                <Link to="contact">
+                  <li className="dropbth"> {t("nav.li5")}</li>
                 </Link>
                 {/* <Link to="contact">
                   <li>Contact</li>
                 </Link> */}
-                <select className="bg-transparent outline-none">
+                {/* <select className="bg-transparent outline-none">
                   <option value="tr">Tr</option>
                   <option value="en">En</option>
-                </select>
+                </select> */}
+                <MyTranslation></MyTranslation>
               </ul>
             </nav>
             {/* mobal-menu */}
@@ -185,10 +194,7 @@ const Layout = () => {
                 </div>
               </div>
               <p className="text-center md:text-start max-w-[500px]">
-                Enerjinin akışını yönlendiren kabiliyetimizle, elektrik
-                mühendisliğinde yeni ufuklar açıyoruz. Yenilikçi
-                yaklaşımlarımızla sorunlara çözüm üretiyor, geleceği
-                aydınlatıyoruz.
+                {t("foot.p1")}
               </p>
               <div className="flex gap-10 flex-wrap justify-between ">
                 <div className="flex gap-6 items-center  justify-center">

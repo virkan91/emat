@@ -6,14 +6,20 @@ import gr120 from "../projeler/img-proj/gr120.png";
 import gr300 from "../projeler/img-proj/gr300.png";
 import gr50 from "../projeler/img-proj/gr50.png";
 import gr116 from "../projeler/img-proj/gr116.png";
-import gr1997 from "../projeler/img-proj/g1997.png"
-// import gr1999 from "../projeler/img-proj/gr1999.png"
-// import gr2000 from "../projeler/img-proj/g2000.png"
-// import gr2001 from "../projeler/img-proj/g2001.png"
-// import gr2002 from "../projeler/img-proj/g2002.png"
-// import gr1999 from "../projeler/img-proj/g1999.png"
-// import gr1999 from "../projeler/img-proj/g1999.png"
-// import gr1999 from "../projeler/img-proj/g1999.png"
+import gr1997 from "../projeler/img-proj/gr1997.png";
+import gr1999 from "../projeler/img-proj/gr1999.png";
+import gr2000 from "../projeler/img-proj/gr2000.png";
+import gr2001 from "../projeler/img-proj/gr2001.png";
+import gr2002 from "../projeler/img-proj/gr2002.png";
+import gr2003 from "../projeler/img-proj/gr2003.png";
+import gr2004 from "../projeler/img-proj/gr2004.png";
+import gr2005 from "../projeler/img-proj/gr2005.png";
+import fu1 from "../projeler/img-proj/fu1.png";
+import city from "../projeler/img-proj/city.png";
+import draw2 from "../projeler/img-proj/draw2.png"
+
+import { BsArrowLeftShort } from "react-icons/bs";
+import { BsArrowRightShort } from "react-icons/bs";
 
 const Projeler = () => {
   return (
@@ -125,7 +131,7 @@ const Projeler = () => {
         </div>
       </div>
       {/* section-3 */}
-      <section className="bg-[#1C0B24] relative top-[-190px]">
+      <section className="bg-[#1C0B24] relative top-[-190px] ">
         <div className="container max-w-[1100px] mx-auto p-[20px]">
           <div className="text-[#FFF] max-w-[700px]  pt-[240px]">
             <p className="text-[10px] tracking-[4px]">DEĞERLERİMİZ</p>
@@ -138,7 +144,7 @@ const Projeler = () => {
             <div className=" guven grid md:grid-cols-3 gap-[30px] grid-cols-1 pt-[100px]">
               <div className="max-w-[350px]"></div>
               <div>
-                <div className=" given max-w-[350px] border-t-[1px]">
+                <div className=" given max-w-[350px] border-t-[1px] border-[rgba(255,255,255,0.12)] ">
                   <h3>Güven</h3>
                 </div>
                 <p>
@@ -147,7 +153,7 @@ const Projeler = () => {
                 </p>
               </div>
               <div>
-                <div className=" given  max-w-[350px] border-t-[1px]">
+                <div className=" given  max-w-[350px] border-t-[1px] border-[rgba(255,255,255,0.12)] ">
                   <h3>Gizlilik</h3>
                 </div>
                 <p>
@@ -157,7 +163,7 @@ const Projeler = () => {
               </div>
               <div className=" given max-w-[350px]"></div>
               <div>
-                <div className=" given  max-w-[350px] border-t-[1px]">
+                <div className=" given  max-w-[350px] border-t-[1px] border-[rgba(255,255,255,0.12)]">
                   <h3>Çalışanlarına Karşı Sorumluluk</h3>
                 </div>
                 <p>
@@ -166,7 +172,7 @@ const Projeler = () => {
                 </p>
               </div>
               <div>
-                <div className=" given  max-w-[350px] border-t-[1px]">
+                <div className=" given  max-w-[350px] border-t-[1px] border-[rgba(255,255,255,0.12)]">
                   <h3>Sürekli İyileştirme</h3>
                 </div>
                 <p>
@@ -176,7 +182,7 @@ const Projeler = () => {
               </div>
               <div className=" given max-w-[350px]"></div>
               <div>
-                <div className=" given  max-w-[350px] border-t-[1px]">
+                <div className=" given  max-w-[350px] border-t-[1px] border-[rgba(255,255,255,0.12)]">
                   <h3>İhtiyaç ve Beklentilerini Karşılamak</h3>
                 </div>
                 <p>
@@ -186,7 +192,7 @@ const Projeler = () => {
                 </p>
               </div>
               <div>
-                <div className=" given  max-w-[350px] border-t-[1px]">
+                <div className=" given  max-w-[350px] border-t-[1px] border-[rgba(255,255,255,0.12)]">
                   <h3>Sürekli İyileştirme</h3>
                 </div>
                 <p>
@@ -197,31 +203,119 @@ const Projeler = () => {
               </div>
             </div>
           </div>
-          <div className="vert flex justify-between py-[110px]">
-            <div>
+          <div className="vert flex justify-evenly pt-[110px]">
+            <div className="hover:text-orange-500">
               <img src={gr1997} alt="" />
             </div>
-            {/* <div>
-              <img src={gr1999} alt="" />
+            <div className="hover:text-orange-500">
+              <img
+                width={45}
+                src={gr1999}
+                alt=""
+                className="hover:-orange-500"
+              />
             </div>
             <div>
-              <img src={gr2000} alt="" />
+              <img width={40} src={gr2000} alt="" />
             </div>
             <div>
-              <img src={gr2001} alt="" />
+              <img width={43} src={gr2001} alt="" />
             </div>
             <div>
-              <img src={gr2002} alt="" />
+              <img width={40} src={gr2002} alt="" />
             </div>
             <div>
-              <img src={gr2003} alt="" />
+              <img width={40} src={gr2003} alt="" />
             </div>
             <div>
-              <img src={gr2004} alt="" />
+              <img width={40} src={gr2004} alt="" />
             </div>
             <div>
-              <img src={gr1999} alt="" />
-            </div> */}
+              <img width={40} src={gr2005} alt="" />
+            </div>
+          </div>
+          <div className=" p-[20px]">
+            <div className=" max-w-[880px] mx-auto flex justify-between relative top-[22px] z-10">
+              <img src={fu1} alt="" className="hover:text-orange-500" />
+              <img src={fu1} alt="" />
+              <img src={fu1} alt="" />
+              <img src={fu1} alt="" />
+              <img src={fu1} alt="" />
+              <img src={fu1} alt="" />
+              <img src={fu1} alt="" />
+              <img src={fu1} alt="" />
+            </div>
+            <hr className="relative top-[16px] max-w-[930px] m-auto text-[#000] z-1" />
+            <div className="md:flex justify-between hidden">
+              <div className="border-[1px] rounded-full hover:bg-[#FF8A00] border-[#828d93]">
+                <BsArrowLeftShort className="text-[#FFF] text-[30px]" />
+              </div>
+              <div className="border-[1px] rounded-full hover:bg-[#FF8A00] border-[#828d93]">
+                <BsArrowRightShort className="text-[#FFF] text-[30px]" />
+              </div>
+            </div>
+          </div>
+          <div className=" p_city grid md:grid-cols-2 py-[50px] grid-cols-1">
+            <div className="m-auto md:m-[0px]">
+              <img width={400} src={city} alt="" />
+            </div>
+            <div className="mt-[40px] md:mt-auto p-[10px]">
+              <div className="flex ">
+                <span className="text-[#FF8A00] font-bold text-[32px]">
+                  1997
+                </span>
+              </div>
+              <hr className="w-[320px] relative top-[-23px] left-[130px]" />
+              <h5 className="border-b-[1px] border-[rgba(255,255,255,0.12)]">
+                Emat Mühendislik olarak, 1997 yılında sektördeki deneyimli
+                mühendislerin bir araya gelmesiyle kurulduk.
+              </h5>
+
+              <div className="grid grid-cols-2 py-[30px]">
+                <p>1997’den Bugüne...</p>
+                <p>
+                  Bugün; Üretiminin %75 ini 50 den fazla ülkeye ihraç eden
+                  global lider bir şirket.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* section-4 */}
+      <section>
+        <div className="container max-w-[1250px] mx-auto p-[40px] ">
+          <div className="grid md:grid-cols-6 grid-cols-1 ">
+            <div className="col-span-3">
+              <img src={draw2} alt="" />
+            </div>
+            <div className="text-section_4 col-span-3">
+              <div className="br border-r-[2px] pr-[30px] hover:border-[#FF8A00]">
+                <h2 className="text-end text-[#1C0B24CC]">Misyon</h2>
+                <p className="text-end leading-[30px]">
+                  Misyonumuz, müşterilerimize en iyi kalitede mühendislik
+                  çözümleri sunarak, geleceğin gereksinimlerine uygun projeleri
+                  hayata geçirmektir. İnovasyon ve teknolojiyi projelerimize
+                  entegre ederek, sürdürülebilir ve çevre dostu yaklaşımlarla
+                  sektörde fark yaratıyoruz. Müşteri memnuniyetini ve iş etiği
+                  ilkelerini temel alarak, projelerimizde güvenilirliği ve
+                  verimliliği ön planda tutuyoruz.
+                </p>
+              </div>
+
+              <div className="br border-r-[2px] pr-[30px] mt-[50px] hover:border-[#FF8A00]">
+                <h2 className="text-end">Vizyon</h2>
+                <p className="text-end leading-[30px]">
+                  Misyonumuz, müşterilerimize en iyi kalitede mühendislik
+                  çözümleri sunarak, geleceğin gereksinimlerine uygun projeleri
+                  hayata geçirmektir. İnovasyon ve teknolojiyi projelerimize
+                  entegre ederek, sürdürülebilir ve çevre dostu yaklaşımlarla
+                  sektörde fark yaratıyoruz. Müşteri memnuniyetini ve iş etiği
+                  ilkelerini temel alarak, projelerimizde güvenilirliği ve
+                  verimliliği ön planda tutuyoruz.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

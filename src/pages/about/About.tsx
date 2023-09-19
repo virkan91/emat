@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 // import img
 import draw from "../about/img-about/draw.png";
 import vector from "../about/img-about/vector.svg";
@@ -12,22 +12,21 @@ import offiss from "../about/img-about/offiss.png";
 import zavod from "../about/img-about/zavod.png";
 
 const About = () => {
+    const { t, i18n } = useTranslation();
+
+  
   return (
     <div>
       <section className="bg_header h-screen relative top-[-100px] w-full z-[-1]">
         <div className="container max-w-[1250px] mx-auto p-[20px] h-full ">
           <header className="flex items-center justify-between"></header>
           <div className="h-full flex items-center mt-[10px]">
-            <div className="max-w-[450px] ">
+            <div className="max-w-[480px] ">
               <h1 className="text-[50px] font-bold	not-italic	text-[#FFF] leading-[60px]">
-                Yenilikle Geleceği İnşa Ediyoruz
+                {t("Haktext.h1")}
+                {/* Yenilikle Geleceği İnşa Ediyoruz */}
               </h1>
-              <p className="text-[#FFF] mt-[30px]">
-                Enerjinin akışını yönlendiren kabiliyetimizle, elektrik
-                mühendisliğinde yeni ufuklar açıyoruz. Yenilikçi
-                yaklaşımlarımızla sorunlara çözüm üretiyor, geleceği
-                aydınlatıyoruz.
-              </p>
+              <p className="text-[#FFF] mt-[30px]">{t("Haktext.p")}</p>
             </div>
           </div>
         </div>
