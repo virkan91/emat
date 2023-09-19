@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "li1": "Hakkımızda",
+    "li2": "Hizmetlerimiz",
+    "li3": "Referanslar",
+    "li4": "Haberler",
+    "li5": "İletişim"
+  },
+  
+  "foot":{
+   "p1":"Enerjinin akışını yönlendiren kabiliyetimizle, elektrik mühendisliğinde yeni ufuklar açıyoruz. Yenilikçi yaklaşımlarımızla sorunlara çözüm üretiyor, geleceği aydınlatıyoruz.",
+   "p2":"Müşteri Hizmetleri",
+   "p3": "E-Posta",
+   "p4":"Adres",
+   "span":"YOL TARİFİ AL",
+   "h2": "Kurumsal",
+   "li1":"Anasayfa",
+   "li2":"Kurumsal",
+   "li3":"Hakkımızda",
+   "li4":"Haberler",
+   "li5":"Projeler",
+   "li6":"İletişim",
+   "h22": "Hizmetlerimiz",
+   "li7":"Transformatör Merkezi",
+   "li8":"Yüksek Gerilim Hücreleri",
+   "li9":"Yeraltı Kablo Tesisi",
+   "li10":"Zayıf Akım Sistemleri",
+   "li11":"Alçak Gerilim Hizmetleri",
+   "li12":"Yol Aydınlatma"
+  },
+  
+  "endfoot":{
+     "p1":"Mühendislik",
+     "p2":"Tüm hakları saklıdır",
+     "p3":"Gizlilik Sözleşmesi",
+     "p4": "Kişisel Verilerin Korunması Politikası",
+     "p5": "Web Tasarım"
+  },
+
+
+  "Haktext": {
+    "h1": "Yenilikle Geleceği İnşa Ediyoruz",
+    "p": "Enerjinin akışını yönlendiren kabiliyetimizle, elektrik mühendisliğinde yeni ufuklar açıyoruz. Yenilikçi yaklaşımlarımızla sorunlara çözüm üretiyor, geleceği aydınlatıyoruz."
+  },
+  "sec1": {
+    "p": "EMAT MÜHENDİSLİK",
+    "h2":"Çözüm Odaklı İnşaat Teknolojileri",
+    "p2":"Enerjinin akışını yönlendiren kabiliyetimizle, elektrik mühendisliğinde yeni ufuklar açıyoruz. Yenilikçi yaklaşımlarımızla sorunlara çözüm üretiyor, geleceği aydınlatıyoruz.",
+    "p3":"Teknolojinin hızla evrildiği bu dönemde, akıllı çözümlerimiz ve ileri teknolojiyle birlikte geleceği inşa ediyoruz.",
+    "span1":"Personel",
+    "sapn2": "Tamamlanan Proje",
+    "span3": "Devam Eden Proje"
+  }
+}

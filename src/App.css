@@ -24,25 +24,65 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bg_news{
-   background-image: url(./pages/news/img-news/bg-news.png);
+.bg_news {
+  background-image: url(./pages/news/img-news/bg-news.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bg_commun{
-  background-image: url(./pages/communication/img-commun/bg-commun.png);
+.bg_commun {
+  background-image: url(./pages/contact/img-commun/bg-commun.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-.bg_anastasy{
+.bg_anastasy {
   background-image: url(./pages/services/dropdown/anasayfa/img-anasay/bg_anastasy.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.bg-hakk {
+  background-image: url(./pages/services/img-services/bg-hakkimizda.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-hakk-2 {
+  background-image: url(./pages/services/img-services/hakk-bg-box2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hakk-bg-d1 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 138, 0, 0.1) 0%,
+    rgba(255, 138, 0, 0) 100%
+  );
+}
+.hakk-bg-d1-b {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 138, 0, 0) 0%,
+    rgba(255, 138, 0, 0.1) 100%
+  );
+}
+.bg-hakk-box3 {
+  background: linear-gradient(111deg, #1d0b24 36.23%, #595959 99.26%);
+}
 
+.bg_proj {
+  background-image: url(./pages/services/dropdown//projeler/img-proj/bg_proj.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ar_ge {
+  background-image: url(./pages/services/dropdown/projeler/img-proj/rectangle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer {
@@ -109,7 +149,7 @@ footer ul li {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.section_4  {
+.section_4 {
   color: rgba(28, 11, 36, 0.8);
   font-family: TacticSans-Bld;
   font-size: 48px;
@@ -260,16 +300,32 @@ section form input {
   line-height: 25px; /* 210% */
 }
 .ulsearch li {
-color: rgba(28, 11, 36, 0.50);
-font-family: Montserrat;
-font-size: 17px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  color: rgba(28, 11, 36, 0.5);
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.p1 {
+  color: rgba(28, 11, 36, 0.75);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.p2 {
+  color: rgba(28, 11, 36, 0.65);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 30px;
+  /* line-height: 42px; */
 }
 /* dropdown */
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -286,19 +342,42 @@ line-height: normal;
   position: absolute;
   background-color: transparent;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: #FFF;
+  color: #fff;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {color: orange; }
+.dropdown-content a:hover {
+  color: orange;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.guven p{
+  margin-top: 20px;
+  font-size: 14px;
+}
+.guven h3{
+  margin-top: 20px;
+  font-weight: 700;
+}
+.given:hover {
+  color: #ff8a00;
+  cursor: pointer;
+  border-color: #ff8a00;
+  
+}
+.css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root{
+  width: 448px !important;
+}

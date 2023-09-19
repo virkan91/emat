@@ -5,11 +5,11 @@ import News from "./pages/news/News";
 import Nothing from "./pages/nothing/Nothing";
 import About from "./pages/about/About";
 import Services from "./pages/services/Services";
-import Communication from "./pages/communication/Communication";
 import References from "./pages/references/References";
 import Anasayfa from "./pages/services/dropdown/anasayfa/Anasayfa";
 import Projeler from "./pages/services/dropdown/projeler/Projeler";
 import Hakkımızda from "./pages/services/dropdown/hakkımızda/Hakkımızda";
+import Contact from "./pages/contact/Contact";
 
 const router = createBrowserRouter([
   {
@@ -42,18 +42,18 @@ const router = createBrowserRouter([
         //   }
         // ]
       },
-                  {
-                    path: "anasayfa",
-                    element: <Anasayfa />,
-                  },
-                  {
-                    path: "projeler",
-                    element: <Projeler />,
-                  },
-                  {
-                    path: "hakkimizda",
-                    element: <Hakkımızda />,
-                  },
+      {
+        path: "anasayfa",
+        element: <Anasayfa />,
+      },
+      {
+        path: "projeler",
+        element: <Projeler />,
+      },
+      {
+        path: "hakkimizda",
+        element: <Hakkımızda />,
+      },
 
       {
         path: "References",
@@ -64,8 +64,8 @@ const router = createBrowserRouter([
         element: <News />,
       },
       {
-        path: "communication",
-        element: <Communication />,
+        path: "contact",
+        element: <Contact />,
       },
       {
         path: "*",

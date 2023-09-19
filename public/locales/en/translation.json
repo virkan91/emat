@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "li1": "About",
+    "li2": "Services",
+    "li3": "References",
+    "li4": "News",
+    "li5": "Contact"
+  },
+  "foot": {
+    "p1": "We are opening new horizons in electrical engineering with our ability to direct the flow of energy. We produce solutions to problems and illuminate the future with our innovative approaches.",
+    "p2": "Customer Services",
+    "p3": "E-Mail",
+    "p4": "Address",
+    "span": "GET DIRECTIONS",
+    "h2": "Corporate",
+    "li1": "Homepage",
+    "li2": "Corporate",
+    "li3": "About Us",
+    "li4": "News",
+    "li5": "Projects",
+    "li6": "Contact",
+    "h22": "Our Services",
+    "li7": "Transformer Center",
+    "li8": "High Voltage Cells",
+    "li9": "Underground Cable Installation",
+    "li10": "Weak Current Systems",
+    "li11": "Low Voltage Services",
+    "li12": "Road Lighting"
+  },
+  "endfoot": {
+    "p1": "Engineering",
+    "p2": "All rights reserved",
+    "p3": "Privacy Agreement",
+    "p4": "Personal Data Protection Policy",
+    "p5": "Web Design"
+  },
+  "Haktext": {
+    "h1": "We Build the Future with Innovation",
+    "p": "We are opening new horizons in electrical engineering with our ability to direct the flow of energy. We produce solutions to problems and illuminate the future with our innovative approaches."
+  },
+  "sec1": {
+    "p": "EMAT ENGINEERING",
+    "h2": "Solution Oriented Construction Technologies",
+    "p2": "We are opening new horizons in electrical engineering with our ability to direct the flow of energy. We produce solutions to problems and illuminate the future with our innovative approaches.",
+    "p3": "In this period when technology is rapidly evolving, we are building the future with our smart solutions and advanced technology.",
+    "span1": "Personnel",
+    "sapn2": "Completed Project",
+    "span3": "Ongoing Project"
+  }
+}

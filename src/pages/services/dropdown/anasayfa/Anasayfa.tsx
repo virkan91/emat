@@ -2,8 +2,6 @@ import React from "react";
 
 import grop from "../anasayfa/img-anasay/grop.png";
 import gr from "../anasayfa/img-anasay/gr.png";
-import mail from "../anasayfa/mail.png"
-import call from "../anasayfa/call.svg"
 import draw from "../anasayfa/img-anasay/draw.png";
 import Form from "../../../../components/Form";
 
