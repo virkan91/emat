@@ -38,13 +38,58 @@
     "h1": "We Build the Future with Innovation",
     "p": "We are opening new horizons in electrical engineering with our ability to direct the flow of energy. We produce solutions to problems and illuminate the future with our innovative approaches."
   },
-  "sec1": {
+  "sec2": {
     "p": "EMAT ENGINEERING",
     "h2": "Solution Oriented Construction Technologies",
     "p2": "We are opening new horizons in electrical engineering with our ability to direct the flow of energy. We produce solutions to problems and illuminate the future with our innovative approaches.",
     "p3": "In this period when technology is rapidly evolving, we are building the future with our smart solutions and advanced technology.",
     "span1": "Personnel",
-    "sapn2": "Completed Project",
+    "span2": "Completed Project",
     "span3": "Ongoing Project"
+  },
+
+  "sec3": {
+    "p": "PROJECTS",
+    "h1": "Armsan Weapons Factory"
+  },
+  "sec4": {
+    "p": "EMAT ENGINEERING",
+    "h2": "Our Services",
+    "h3": "Medium Voltage Services",
+    "li1": "Transformer Center",
+    "li2": "High Voltage Cells",
+    "li3": "Underground Cable Installation",
+    "li4": "Road Lighting",
+    "li5": "Energy Permit Certificate",
+    "li6": "Electricity Administration Acceptance Procedures",
+    "h5": "Low Voltage Services",
+    "h52": "Weak Current Systems",
+    "h53": "Mechanical"
+  },
+  "sec5": {
+    "h2": "News from Us",
+    "p": "All News",
+    "p1": "Finance",
+    "p2": "Beyond Innovation: We Shape the Future with Technology",
+    "p3": "We open new horizons in electrical engineering with our ability to direct the flow of energy..."
+  },
+  "service": {
+    "page1": "Home",
+    "page2": "References",
+    "h1": "References",
+    "p": "We are opening new horizons in electrical engineering with our ability to direct the flow of energy. We produce solutions to problems and illuminate the future with our innovative approaches.",
+    "bt1": "Project",
+    "bt2": "Commitment",
+    "a1": "All",
+    "a2": "Industrial",
+    "a3": "Commercial",
+    "a4": "Residence",
+    "a5": "Historical",
+    "a6": "Education",
+    "a7": "Administrative",
+    "a8": "Health",
+    "a9": "Office",
+    "p1": "COMMERCIAL",
+    "p2": "Armsan Weapons Factory"
   }
 }
