@@ -42,13 +42,60 @@
     "h1": "Yenilikle Geleceği İnşa Ediyoruz",
     "p": "Enerjinin akışını yönlendiren kabiliyetimizle, elektrik mühendisliğinde yeni ufuklar açıyoruz. Yenilikçi yaklaşımlarımızla sorunlara çözüm üretiyor, geleceği aydınlatıyoruz."
   },
-  "sec1": {
+  "sec2": {
     "p": "EMAT MÜHENDİSLİK",
     "h2":"Çözüm Odaklı İnşaat Teknolojileri",
     "p2":"Enerjinin akışını yönlendiren kabiliyetimizle, elektrik mühendisliğinde yeni ufuklar açıyoruz. Yenilikçi yaklaşımlarımızla sorunlara çözüm üretiyor, geleceği aydınlatıyoruz.",
     "p3":"Teknolojinin hızla evrildiği bu dönemde, akıllı çözümlerimiz ve ileri teknolojiyle birlikte geleceği inşa ediyoruz.",
     "span1":"Personel",
-    "sapn2": "Tamamlanan Proje",
+    "span2": "Tamamlanan Proje",
     "span3": "Devam Eden Proje"
-  }
+  },
+  "sec3":{
+    "p": "PROJELER",
+    "h1": "Armsan Silah Fabrikası"
+    
+  },
+"sec4":{
+  "p": "EMAT ENGINEERING",
+  "h2": "Hizmetlerimiz",
+  "h3": "Orta Gerilim Hizmetleri",
+  "li1": "Transformatör Merkezi",
+  "li2": "Yüksek Gerilim Hücreleri",
+  "li3": "Yeraltı Kablo Tesisi",
+  "li4": "Yol Aydınlatma",
+  "li5": "Enerji Müsaade Belgesi",
+  "li6": "Elektrik İdaresi Kabul İşlemleri",
+  "h5": "Alçak Gerilim Hizmetleri",
+  "h52": "Zayıf Akım Sistemleri" ,
+  "h53": "Mekanik"
+},
+"sec5": {
+  "h2": "Bizden Haberler",
+  "p": "Tüm Haberler",
+  "p1": "Finans",
+  "p2": "İnovasyonun Ötesinde: Teknolojiyle Geleceği Şekillendiriyoruz",
+  "p3": "Enerjinin akışını yönlendiren kabiliyetimizle, elektrik mühendisliğinde yeni ufuklar açıyoruz..."
+},
+"service": {
+  "page1": "Anasayfa",
+  "page2": "Referanslar",
+  "h1": "Referanslar",
+  "p": "Enerjinin akışını yönlendiren kabiliyetimizle, elektrik mühendisliğinde yeni ufuklar açıyoruz. Yenilikçi yaklaşımlarımızla sorunlara çözüm üretiyor, geleceği aydınlatıyoruz.",
+  "bt1": "Project",
+  "bt2": "Taahhüt",
+  "a1": "Hepsi",
+  "a2": "Endüstriyel",
+  "a3": "Ticari",
+  "a4": "Konut",
+  "a5": "Tarihi",
+  "a6": "Eğitim",
+  "a7": "İdari",
+  "a8": "Sağlık",
+  "a9": "Ofis",
+
+  "p1": "TİCARİ",
+  "p2": "Armsan Silah Fabrikası"
+}
+
 }

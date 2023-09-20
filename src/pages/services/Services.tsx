@@ -1,9 +1,11 @@
 import React from "react";
-import fram from "../../pages/services/img-services/Fram.png"
+import { useTranslation } from "react-i18next";
 
-
+import fram from "../../pages/services/img-services/Fram.png";
 
 const Services = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <div>
       <section className="bg_servise h-screen relative top-[-100px] w-full z-[-1]">
@@ -11,7 +13,7 @@ const Services = () => {
           <div className="h-full flex items-center mt-[10px]">
             <div className="max-w-[450px] ">
               <div className="text-[#FFF] flex gap-4 items-center">
-                <p>Anasayfa</p>
+                <p>{t("service.page1")}</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="14"
@@ -28,17 +30,12 @@ const Services = () => {
                     stroke-linejoin="round"
                   />
                 </svg>
-                <p>Referanslar</p>
+                <p>{t("service.page2")}</p>
               </div>
               <h1 className="text-[50px] font-bold	not-italic	text-[#FFF] leading-[60px]  mt-[20px]">
-                Referanslar
+                {t("service.h1")}
               </h1>
-              <p className="text-[#FFF] mt-[30px]">
-                Enerjinin akışını yönlendiren kabiliyetimizle, elektrik
-                mühendisliğinde yeni ufuklar açıyoruz. Yenilikçi
-                yaklaşımlarımızla sorunlara çözüm üretiyor, geleceği
-                aydınlatıyoruz.
-              </p>
+              <p className="text-[#FFF] mt-[30px]">{t("service.p")}</p>
             </div>
           </div>
         </div>
@@ -46,11 +43,11 @@ const Services = () => {
       <div className="flex justify-center relative bottom-[155px] gap-5">
         <div className=" cursor-pointer hover:bg-[#FF8A00] hover:text-white border-[1px] p-[5px] rounded-[90px] px-[40px] ">
           <button className=" hover:text-white  cursor-pointer  ">
-            Project
+            {t("service.bt1")}
           </button>
         </div>
         <button className=" cursor-pointer hover:bg-[#FF8A00] hover:text-white border-[1px] p-[5px] rounded-[90px] px-[40px] ">
-          Taahhüt
+          {t("service.bt2")}
         </button>
       </div>
       <div className=" service ">
@@ -62,7 +59,7 @@ const Services = () => {
               href=""
               className=" hover:text-orange-500 hover:border-b-[1px] border-orange-500 hover:pb-[60px] "
             >
-              Hepsi
+              {t("service.a1")}
             </a>
           </li>
 
@@ -72,7 +69,7 @@ const Services = () => {
               href=""
               className=" hover:text-orange-500 hover:border-b-[1px] border-orange-500 hover:pb-[60px] "
             >
-              Endüstriyel
+              {t("service.a2")}
             </a>
           </li>
 
@@ -82,7 +79,7 @@ const Services = () => {
               href=""
               className=" hover:text-orange-500 hover:border-b-[1px] border-orange-500 hover:pb-[60px] "
             >
-              Ticari
+              {t("service.a3")}
             </a>
           </li>
 
@@ -92,7 +89,7 @@ const Services = () => {
               href=""
               className=" hover:text-orange-500 hover:border-b-[1px] border-orange-500 hover:pb-[60px] "
             >
-              Konut
+              {t("service.a4")}
             </a>
           </li>
 
@@ -102,7 +99,7 @@ const Services = () => {
               href=""
               className=" hover:text-orange-500 hover:border-b-[1px] border-orange-500 hover:pb-[60px] "
             >
-              Tarihi
+              {t("service.a5")}
             </a>
           </li>
 
@@ -112,7 +109,7 @@ const Services = () => {
               href=""
               className=" hover:text-orange-500 hover:border-b-[1px] border-orange-500 hover:pb-[60px] "
             >
-              Eğitim
+              {t("service.a6")}
             </a>
           </li>
 
@@ -122,7 +119,7 @@ const Services = () => {
               href=""
               className=" hover:text-orange-500 hover:border-b-[1px] border-orange-500 hover:pb-[60px] "
             >
-              İdari
+              {t("service.a7")}
             </a>
           </li>
 
@@ -132,7 +129,7 @@ const Services = () => {
               href=""
               className=" hover:text-orange-500 hover:border-b-[1px] border-orange-500 hover:pb-[60px] "
             >
-              Sağlık
+              {t("service.a8")}
             </a>
           </li>
 
@@ -142,7 +139,7 @@ const Services = () => {
               href=""
               className=" hover:text-orange-500 hover:border-b-[1px] border-orange-500 hover:pb-[60px] "
             >
-              Ofis
+              {t("service.a9")}
             </a>
           </li>
         </ul>
@@ -157,10 +154,9 @@ const Services = () => {
               <div className=" flex justify-end relative bottom-[30px]">
                 <img width={55} src={fram} alt="" />
               </div>
-              <p className="pop font-bold">TİCARİ</p>
-              <br />
-              <p className=" text-white text-[40px] font-bold leading-[50px]">
-                Armsan <br /> Silah Fabrikası
+              <p className="pop font-bold">{t("service.p1")} </p>
+              <p className=" text-white text-[40px] font-bold leading-[50px] p-[10px]">
+                {t("service.p2")}
               </p>
               <br />
               <br />
@@ -187,64 +183,64 @@ const Services = () => {
             </div>
             <div className="armsan_2 pl-[50px] pr-[50px] pt-[50px] pb-[50px] flex items-end">
               <div>
-                <p className="pop font-bold">TİCARİ</p>
+                <p className="pop font-bold">{t("service.p1")}</p>
                 <br />
-                <p className=" text-white text-[40px] font-bold leading-[50px]">
-                  Armsan <br /> Silah Fabrikası
+                <p className=" text-white text-[40px] font-bold leading-[50px] p-[10px]">
+                  {t("service.p2")}
                 </p>
               </div>
             </div>
             <div className="armsan_3 pl-[50px] pr-[50px] pt-[250px] pb-[50px] flex items-end">
               <div>
-                <p className="pop font-bold">TİCARİ</p>
+                <p className="pop font-bold">{t("service.p1")}</p>
                 <br />
-                <p className=" text-white text-[40px] font-bold leading-[50px]">
-                  Armsan <br /> Silah Fabrikası
+                <p className=" text-white text-[40px] font-bold leading-[50px] p-[10px]">
+                  {t("service.p2")}
                 </p>
               </div>
             </div>
             <div className="armsan_4 pl-[50px] pr-[50px] pt-[250px] pb-[50px] flex items-end">
               <div>
-                <p className="pop font-bold">TİCARİ</p>
+                <p className="pop font-bold">{t("service.p1")}</p>
                 <br />
-                <p className=" text-white text-[40px] font-bold leading-[50px]">
-                  Armsan <br /> Silah Fabrikası
+                <p className=" text-white text-[40px] font-bold leading-[50px] p-[10px]">
+                  {t("service.p2")}
                 </p>
               </div>
             </div>
             <div className="armsan_5 pl-[50px] pr-[50px] pt-[250px] pb-[50px] flex items-end">
               <div>
-                <p className="pop font-bold">TİCARİ</p>
+                <p className="pop font-bold">{t("service.p1")}</p>
                 <br />
-                <p className=" text-white text-[40px] font-bold leading-[50px]">
-                  Armsan <br /> Silah Fabrikası
+                <p className=" text-white text-[40px] font-bold leading-[50px] p-[10px]">
+                  {t("service.p2")}
                 </p>
               </div>
             </div>
             <div className="armsan_6 pl-[50px] pr-[50px] pt-[250px] pb-[50px] flex items-end">
               <div>
-                <p className="pop font-bold ">TİCARİ</p>
+                <p className="pop font-bold ">{t("service.p1")}</p>
                 <br />
-                <p className=" text-white text-[40px] font-bold leading-[50px]">
-                  Armsan <br /> Silah Fabrikası
+                <p className=" text-white text-[40px] font-bold leading-[50px] p-[10px]">
+                  {t("service.p2")}
                 </p>
               </div>
             </div>
             <div className="armsan_7 pl-[50px] pr-[50px] pt-[250px] pb-[50px] flex items-end">
               <div>
-                <p className="pop font-bold">TİCARİ</p>
+                <p className="pop font-bold">{t("service.p1")}</p>
                 <br />
-                <p className=" text-white text-[40px] font-bold leading-[50px]">
-                  Armsan <br /> Silah Fabrikası
+                <p className=" text-white text-[40px] font-bold leading-[50px] p-[10px]">
+                  {t("service.p2")}
                 </p>
               </div>
             </div>
             <div className="armsan_8 pl-[50px] pr-[50px] pt-[250px] pb-[50px] flex items-end">
               <div>
-                <p className="pop font-bold">TİCARİ</p>
+                <p className="pop font-bold">{t("service.p1")}</p>
                 <br />
-                <p className=" text-white text-[40px] font-bold leading-[50px]">
-                  Armsan <br /> Silah Fabrikası
+                <p className=" text-white text-[40px] font-bold leading-[50px] p-[10px]">
+                  {t("service.p2")}
                 </p>
               </div>
             </div>
