@@ -1,10 +1,9 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 
 import fram from "../../pages/services/img-services/Fram.png";
 
 const Services = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div>

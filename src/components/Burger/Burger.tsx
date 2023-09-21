@@ -15,8 +15,9 @@ import { AiOutlineMenu, AiFillHome } from "react-icons/ai";
 import { IconButton } from "@mui/material";
 import { Link } from "react-router-dom";
 
+
 export default function Burger() {
-  const [state, setState] = React.useState({
+  const [state, setState] = React.useState<any>({
     top: false,
     left: false,
     bottom: false,
@@ -50,7 +51,7 @@ export default function Burger() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {menuName.map((e, i) => {
+        {menuName.map((e) => {
           if (e == "Hakkımızda") {
             return (
               <Link to="about">
@@ -129,7 +130,7 @@ export default function Burger() {
 
   return (
     <div>
-      {["left"].map((anchor) => (
+      {["left"].map((anchor:any) => (
         <React.Fragment key={anchor}>
           <IconButton onClick={toggleDrawer(anchor, true)}>
             <AiOutlineMenu className="text-[40px] text-[#FFFFFF]" />
