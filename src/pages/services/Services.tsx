@@ -1,10 +1,9 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 
 import fram from "../../pages/services/img-services/Fram.png";
 
 const Services = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div>
@@ -32,7 +31,7 @@ const Services = () => {
                 </svg>
                 <p>{t("service.page2")}</p>
               </div>
-              <h1 className="text-[50px] font-bold	not-italic	text-[#FFF] leading-[60px]  mt-[20px]">
+              <h1 className="text-[50px] font-bold	not-italic	text-[#FFF] leading-[60px]  mt-[20px] animate__animated animate__backInDown">
                 {t("service.h1")}
               </h1>
               <p className="text-[#FFF] mt-[30px]">{t("service.p")}</p>

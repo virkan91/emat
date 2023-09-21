@@ -6,6 +6,10 @@
   padding-left: 10px;
   padding-right: 10px;
 }  */
+*{
+  box-sizing: border-box;
+  
+}
 
 .bg_header {
   background-image: url(./assets/bg_header.png);
@@ -91,7 +95,7 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  object-fit: contain;
+  
 }
 footer h2 {
   font-family: "Montserrat", sans-serif;

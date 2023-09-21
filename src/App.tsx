@@ -1,4 +1,3 @@
-import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./layout/Layout";
 import News from "./pages/news/News";
@@ -21,7 +20,8 @@ const router = createBrowserRouter([
       //   element: <Company />,
       // },
       {
-        path: "about",
+        // path: "about",
+        index: true,
         element: <About />,
       },
       {

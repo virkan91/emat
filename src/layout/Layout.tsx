@@ -1,4 +1,3 @@
-import React from "react";
 
 import { useTranslation } from "react-i18next";
 import MyTranslation from "../components/MyTranslation";
@@ -18,7 +17,7 @@ import Burger from "../components/Burger/Burger";
 
 const Layout = () => {
   // translations________________________
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   // _________________________________
 
@@ -28,14 +27,14 @@ const Layout = () => {
         <div className="container max-w-[1250px] mx-auto p-[20px]">
           <header className="flex items-center justify-between">
             {/* logo */}
-            <Link to="">
+            <Link to="/">
               <div>
                 <img src={logo} alt="" className="max-w-[140px]" />
               </div>
             </Link>
             <nav className="hidden lg:flex">
-              <ul className="flex items-center justify-center gap-[70px] text-[#FFF]">
-                <Link to="about">
+              <ul className="flex items-center justify-center gap-[60px] text-[#FFF] dark:text-orange-500">
+                <Link to="/">
                   {/* <li>Hakkımızda</li> */}
                   {t("nav.li1")}
                 </Link>
@@ -65,7 +64,7 @@ const Layout = () => {
                         <li>Projeler</li>
                       </Link>
                       <Link to="/hakkimizda">
-                        <li>hakkimizda</li>
+                        <li>Hakkimizda</li>
                       </Link>
                     </div>
                   </div>
@@ -75,14 +74,10 @@ const Layout = () => {
                 <Link to="contact">
                   <li className="dropbth"> {t("nav.li5")}</li>
                 </Link>
-                {/* <Link to="contact">
-                  <li>Contact</li>
-                </Link> */}
-                {/* <select className="bg-transparent outline-none">
-                  <option value="tr">Tr</option>
-                  <option value="en">En</option>
-                </select> */}
-                <MyTranslation></MyTranslation>
+                <div className="flex gap-6">
+                  <MyTranslation></MyTranslation>
+                  <Switcher />
+                </div>
               </ul>
             </nav>
             {/* mobal-menu */}
@@ -189,9 +184,7 @@ const Layout = () => {
                     </svg>
                   </div>
                 </div>
-                <p className="max-w-[500px]">
-                  {t("foot.p1")}
-                </p>
+                <p className="max-w-[500px]">{t("foot.p1")}</p>
                 <div className="flex gap-10 flex-wrap justify-between ">
                   <div className="flex gap-6 items-center  justify-center">
                     <img src={call} alt="" />
@@ -257,7 +250,9 @@ const Layout = () => {
             {/* div-2 */}
             <div className="border-r-[1px] border-[rgba(255,255,255,0.12)]">
               <div className="md:mr-[95px] text-center md:text-start mt-[120px] md:mt-auto">
-                <h2 className="text-[#FFF] dark:text-orange-500">{t("foot.h2")}</h2>
+                <h2 className="text-[#FFF] dark:text-orange-500">
+                  {t("foot.h2")}
+                </h2>
                 <ul className="mt-[30px] flex md:flex-col  flex-wrap justify-center gap-4 cursor-pointer">
                   <li>{t("foot.li1")}</li>
                   <li>{t("foot.li2")}</li>
@@ -275,7 +270,7 @@ const Layout = () => {
                 <h2 className="text-[#FFF] dark:text-orange-500">
                   {t("foot.h22")}
                 </h2>
-                <ul className="mt-[30px] flex md:flex-col flex-wrap justify-center gap-4 cursor-pointer">
+                <ul className="mt-[30px] flex md:flex-col flex-wrap justify-center gap-4 cursor-pointer dark:text-orange-500">
                   <li>{t("foot.li7")}</li>
                   <li>{t("foot.li8")}</li>
                   <li>{t("foot.li9")}</li>
@@ -332,9 +327,6 @@ const Layout = () => {
                   </defs>
                 </svg>
               </div>
-              {/* <div>
-                <Switcher />
-              </div> */}
             </div>
           </div>
         </div>
