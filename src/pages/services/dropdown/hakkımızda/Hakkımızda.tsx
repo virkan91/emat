@@ -3,6 +3,7 @@ import grop from "../../../references/img-referances/grop.png";
 import i1 from "../../img-services/i1-hakk.png";
 import i2 from "../../img-services/i2-hakk.png";
 import kl from "../../img-services/hakk-k.png";
+import BasicAccordion from "../../../../components/Accordion";
 
 const Hakkımızda = () => {
   return (
@@ -155,15 +156,18 @@ const Hakkımızda = () => {
             </p>
           </div>
         </div>
-        <p className="text-[#FF8A00] text-center text-[12px] mt-[60px] lg:mt-[120px]">
+        <p className="text-[#FF8A00] text-center text-[12px] mt-[60px] lg:mt-[120px] tracking-[6px] font-bold">
           HAVALANDIRMA SİSTEMLERİ
         </p>
-        <p className="text-[#FF8A00] text-center text-[50px] mt-[25px] lg:mt-[50px]">
+        <p className="text-[#000000CC] text-center text-[48px] font-semibold mt-[25px] lg:mt-[20px]">
           Sıkça Sorulan Sorularİ
         </p>
         {/* box-3 */}
+        <div className="container max-w-[1060px] mx-auto  p-[10px] mt-[40px]">
+          <BasicAccordion />
+        </div>
 
-        <div className="flex flex-col gap-[25px] lg:gap-[50px] mt-[50px] mx-[20px] lg:mt-[83px] max-w-[1060px] lg:mx-auto">
+        {/* <div className="flex flex-col gap-[25px] lg:gap-[50px] mt-[50px] mx-[20px] lg:mt-[83px] max-w-[1060px] lg:mx-auto">
           <div className="bg-gray-100 px-[48px] py-[33px] text-[#1C0B24A6]/60 text-[20px] font-[500] flex justify-between items-center">
             Havalandırma sistemleri neden önemlidir?{" "}
             <span className="font-[700] text-[34px] cursor-pointer">+</span>
@@ -194,7 +198,7 @@ const Hakkımızda = () => {
             Havalandırma sistemi bakımı nasıl yapılır?{" "}
             <span className="font-[700] text-[34px] cursor-pointer">+</span>
           </div>
-        </div>
+        </div> */}
       </main>
     </div>
   );

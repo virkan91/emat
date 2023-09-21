@@ -4,7 +4,7 @@ import useDarkSide from "../../hooks/useDarkSide";
 function Switcher() {
   const [colorTheme, setTheme] = useDarkSide();
   const [darkSide, setDarkSide] = useState(
-    colorTheme === "dark" ? true : false
+    colorTheme === "light" ? true : false
   );
 
   const toggleDarkMode = (checked:any) => {
@@ -19,6 +19,7 @@ function Switcher() {
           checked={darkSide}
           onChange={toggleDarkMode}
           size={20}
+          color="white"
           
         />
       </div>
