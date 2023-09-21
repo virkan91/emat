@@ -23,7 +23,7 @@ const Layout = () => {
 
   return (
     <div>
-      <section className="">
+      <section className="" id="top">
         <div className="container max-w-[1250px] mx-auto p-[20px]">
           <header className="flex items-center justify-between">
             {/* logo */}
@@ -93,8 +93,10 @@ const Layout = () => {
 
       <Outlet />
 
-      <div className=" relative bottom-[-42px]  max-w-[60px] mx-auto">
-        <img width={60} src={goup} alt="" />
+      <div  className=" relative bottom-[-42px]  max-w-[60px] mx-auto">
+        <a href="#top">
+          <img className="" width={60} src={goup} alt="" />
+        </a>
       </div>
 
       <footer className="max-w-[1320px] mx-auto">

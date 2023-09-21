@@ -52,7 +52,9 @@ const Contact = () => {
           </div>
 
           <div className="flex justify-center  relative top-[-120px]">
-            <img width={55} src={grop} alt="" />
+            <a href="#bot">
+              <img width={55} src={grop} alt="" />
+            </a>
           </div>
         </div>
       </section>

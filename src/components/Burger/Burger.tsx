@@ -107,7 +107,7 @@ export default function Burger() {
             );
           } else if (e == "İletişim"){
             return (
-              <Link to="/communication">
+              <Link to="/contact">
                 <ListItem key={e} disablePadding>
                   <ListItemButton>
                     <ListItemIcon>
