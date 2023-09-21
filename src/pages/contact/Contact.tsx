@@ -1,4 +1,3 @@
-import React from "react";
 
 // impot icon
 import { BiLogoWhatsapp } from "react-icons/bi";
