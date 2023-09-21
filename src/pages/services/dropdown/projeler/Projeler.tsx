@@ -1,5 +1,4 @@
 import "./style.css";
-import React from "react";
 import grop from "../../../references/img-referances/grop.png";
 import Ellipse from "../projeler/img-proj/Ellipse.png";
 import gr120 from "../projeler/img-proj/gr120.png";

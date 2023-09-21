@@ -1,4 +1,3 @@
-import React from "react";
 
 import grop from "../anasayfa/img-anasay/grop.png";
 import gr from "../anasayfa/img-anasay/gr.png";
