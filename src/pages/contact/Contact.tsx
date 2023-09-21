@@ -40,7 +40,7 @@ const Contact = () => {
                 </svg>
                 <p>Haberler</p>
               </div>
-              <h1 className="text-[50px] font-bold	not-italic	text-[#FFF] leading-[60px]  mt-[20px]">
+              <h1 className="text-[50px] font-bold	not-italic	text-[#FFF] leading-[60px]  mt-[20px] animate__animated animate__backInDown">
                 İnovasyonun Ötesinde: Teknolojiyle Geleceği Şekillendiriyoruz
               </h1>
               <div className="h-full flex text-[#FFF] gap-5 md:mt-[100px] mt-[50px]">

@@ -33,7 +33,7 @@ const Anasayfa = () => {
                   </svg>
                   <p>İletişim</p>
                 </div>
-                <h1 className="text-[50px] font-bold	not-italic	text-[#FFF] leading-[60px]  mt-[20px]">
+                <h1 className="text-[50px] font-bold	not-italic	text-[#FFF] leading-[60px]  mt-[20px] animate__animated animate__backInDown">
                   İletişim
                 </h1>
               </div>

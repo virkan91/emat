@@ -35,7 +35,7 @@ const References = () => {
                 </svg>
                 <p>Referanslar</p>
               </div>
-              <h1 className="text-[50px] font-bold	not-italic	text-[#FFF] leading-[60px]  mt-[20px]">
+              <h1 className="text-[50px] font-bold	not-italic	text-[#FFF] leading-[60px]  mt-[20px] animate__animated animate__backInDown">
                 Armsan Silah Fabrikası
               </h1>
               <p className="text-[#FFF] mt-[30px]">
